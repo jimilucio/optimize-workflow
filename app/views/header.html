@@ -1,0 +1,7 @@
+<div class="header" ng-controller="HeaderCtrl">
+  <ul class="nav nav-pills pull-right">
+    <li ng-repeat="menuElement in menuItems" ng-class="{active: activeMenu == menuElement.url}"><a ng-href="#{{menuElement.url}}" id="{{menuElement.url}}_btn">{{menuElement.name}}</a></li>
+  </ul>
+  <h3 class="text-muted">COME OTTIMIZZARE IL WORKFLOW DI WEB APP CON JAVASCRIPT</h3>
+</div>
+
